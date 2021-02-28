@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{a3cbec90-431b-c5f8-f03c-60e238656522}</ProjectGuid>
+    <ProjectGuid>{f0e78cab-c190-8a76-aa8e-b315068943fa}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -36,7 +36,7 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Movement.cs" />
+     <Compile Include="Assets\Scripts\CollisionHandler.cs" />
      <Compile Include="Assets\Scripts\RocketMovement.cs" />
     <Reference Include="UnityEngine">
         <HintPath>D:/Unity/2020.2.0b9/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -606,31 +606,49 @@
         <HintPath>D:/Unity/2020.2.0b9/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-        <HintPath>D:/Libraries/Documents/UNITY STUFF/ProjectBoost/Project Boost/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+        <HintPath>D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
+        <HintPath>D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>D:/Libraries/Documents/UNITY STUFF/ProjectBoost/Project Boost/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+        <HintPath>D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
-        <HintPath>D:/Libraries/Documents/UNITY STUFF/ProjectBoost/Project Boost/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+        <HintPath>D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.AddOns.Editor">
+        <HintPath>D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-        <HintPath>D:/Libraries/Documents/UNITY STUFF/ProjectBoost/Project Boost/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+        <HintPath>D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-        <HintPath>D:/Libraries/Documents/UNITY STUFF/ProjectBoost/Project Boost/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+        <HintPath>D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-        <HintPath>D:/Libraries/Documents/UNITY STUFF/ProjectBoost/Project Boost/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+        <HintPath>D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder">
+        <HintPath>D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.Editor">
+        <HintPath>D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-        <HintPath>D:/Libraries/Documents/UNITY STUFF/ProjectBoost/Project Boost/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+        <HintPath>D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-        <HintPath>D:/Libraries/Documents/UNITY STUFF/ProjectBoost/Project Boost/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+        <HintPath>D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProGrids">
+        <HintPath>D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/ScriptAssemblies/Unity.ProGrids.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProGrids.Editor">
+        <HintPath>D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/ScriptAssemblies/Unity.ProGrids.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-        <HintPath>D:/Libraries/Documents/UNITY STUFF/ProjectBoost/Project Boost/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+        <HintPath>D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
