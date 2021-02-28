@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class RocketMovement : MonoBehaviour
 {
+    [SerializeField] AudioClip engineThrustAudio;
+
     [SerializeField] float mainThrust = 100f;
     [SerializeField] float rotationSpeed = 100f;
 
@@ -32,7 +34,7 @@ public class RocketMovement : MonoBehaviour
             rb.AddRelativeForce(Vector3.up * mainThrust * Time.deltaTime);
             if(!audioSource.isPlaying)
             {
-                audioSource.Play();
+                audioSource.PlayOneShot(engineThrustAudio);
             }
         }
         else

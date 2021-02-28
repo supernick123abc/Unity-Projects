@@ -65,6 +65,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5703e66d9133986408145d391dfc479e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  engineThrustAudio: {fileID: 8300000, guid: 605f8d50da0a806498e67e59c2c0757e, type: 3}
   mainThrust: 800
   rotationSpeed: 100
 --- !u!82 &1114997991
@@ -77,7 +78,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 605f8d50da0a806498e67e59c2c0757e, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 0.753
   m_Pitch: 1
@@ -175,6 +176,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ea84c20300fd0348b21fd1e3089f2f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  levelChangeDelay: 1
+  crashAudio: {fileID: 8300000, guid: a5a575e93de9f0343952df37bc848633, type: 3}
+  finishAudio: {fileID: 8300000, guid: 58e6e78d742db774bbace169402d792b, type: 3}
 --- !u!1 &4652485587479131822
 GameObject:
   m_ObjectHideFlags: 0
@@ -202,7 +206,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4652485587479131822}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.2044817, y: -1.4360232, z: 3.8925781}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1.5, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8810759284393555451}
@@ -298,8 +302,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5130948858486171432}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.802, y: 1.08, z: 3.9}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalPosition: {x: 0.50121, y: 2.496, z: 0}
+  m_LocalScale: {x: 2.4511936, y: 2, z: 2.6784}
   m_Children: []
   m_Father: {fileID: 8810759284393555451}
   m_RootOrder: 2
@@ -1066,7 +1070,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8021365494417234064}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.2044817, y: 0.063976765, z: 3.8925781}
+  m_LocalPosition: {x: 0, y: 1.49, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8810759284393555451}
