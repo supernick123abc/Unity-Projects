@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.2/staging' branch; Version is '2020.2.6f1 (8a2143876886) revision 9052483'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19042.685; Version 2009; 64bit' Language: 'en' Physical Memory: 32684 MB
+OS: 'Windows 10 Pro; OS build 19043.1083; Version 2009; 64bit' Language: 'en' Physical Memory: 32683 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,183 +11,142 @@ D:\Unity\2020.2.6f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost
+D:/Libraries/Documents/GitHub/Unity-Projects
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-39194
-Successfully changed project path to: D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost
-D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost
+61458
+Successfully changed project path to: D:/Libraries/Documents/GitHub/Unity-Projects
+D:/Libraries/Documents/GitHub/Unity-Projects
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 28.99 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 26.99 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.6f1 (8a2143876886)
 [Subsystems] Discovering subsystems at path D:/Unity/2020.2.6f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Assets
+[Subsystems] Discovering subsystems at path D:/Libraries/Documents/GitHub/Unity-Projects/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
     Renderer: NVIDIA GeForce RTX 3080 (ID=0x2206)
     Vendor:   
     VRAM:     10078 MB
-    Driver:   27.21.14.6140
+    Driver:   30.0.14.7111
 Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
 Initialize mono
 Mono path[0] = 'D:/Unity/2020.2.6f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/2020.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Unity/2020.2.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56044
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56388
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/2020.2.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000818 seconds.
+Registered in 0.000768 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 32.04 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 27.34 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.029 seconds
+- Completed reload, in  0.995 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000379 seconds.
+Registered in 0.000492 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.747 seconds
+- Completed reload, in  0.723 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1780 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 111.8 MB.
-System memory in use after: 111.8 MB.
+Unloading 1651 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.0 MB.
+System memory in use after: 92.1 MB.
 
-Unloading 116 unused Assets to reduce memory usage. Loaded Objects now: 2240.
-Total: 2.848600 ms (FindLiveObjects: 0.293800 ms CreateObjectMapping: 0.042100 ms MarkObjects: 2.247000 ms  DeleteObjects: 0.263800 ms)
+Unloading 102 unused Assets to reduce memory usage. Loaded Objects now: 2106.
+Total: 2.814100 ms (FindLiveObjects: 0.298700 ms CreateObjectMapping: 0.054900 ms MarkObjects: 2.230300 ms  DeleteObjects: 0.228800 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/Cool Level.unity
-  artifactKey: Guid(fff5fa5b75ad3964286f7bb13ecd23ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Cool Level.unity using Guid(fff5fa5b75ad3964286f7bb13ecd23ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebbbff64e7707dd2fb5cba5c348382cc') in 0.011680 seconds
-  Import took 0.014705 seconds .
+  path: Assets/Ultra Emissive Particles Shader/Textures/Sparks Texture.png
+  artifactKey: Guid(37bdb4ad340777043ad911fe184cf651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultra Emissive Particles Shader/Textures/Sparks Texture.png using Guid(37bdb4ad340777043ad911fe184cf651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89bfe5128ce541c2b903218ab05d4a63') in 0.126183 seconds
+  Import took 0.129345 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000414 seconds.
+Registered in 0.000480 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
 System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
-[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+[D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
 
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.631 seconds
+- Completed reload, in  0.681 seconds
 Platform modules already initialized, skipping
 Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1666 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 103.0 MB.
-System memory in use after: 103.1 MB.
+Unloading 1613 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.3 MB.
+System memory in use after: 89.3 MB.
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2243.
-Total: 1.977500 ms (FindLiveObjects: 0.175900 ms CreateObjectMapping: 0.037000 ms MarkObjects: 1.638700 ms  DeleteObjects: 0.124800 ms)
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2111.
+Total: 2.421300 ms (FindLiveObjects: 0.480600 ms CreateObjectMapping: 0.055600 ms MarkObjects: 1.795600 ms  DeleteObjects: 0.088100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 201.455447 seconds.
+  path: Assets/Materials/MaterialFuelCell.mat
+  artifactKey: Guid(12246f0f6f42eb140a79735415efdc45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/MaterialFuelCell.mat using Guid(12246f0f6f42eb140a79735415efdc45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47b07ff925a68a631fdeed09141fef9d') in 0.101609 seconds
+  Import took 0.105216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Materials/MaterialSkyBox.mat
+  artifactKey: Guid(952b8dd93a9e01b4cb2bd4573ea5f83a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/MaterialSkyBox.mat using Guid(952b8dd93a9e01b4cb2bd4573ea5f83a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a87d24b57ecdd9dd4ff3282798061302') in 0.009711 seconds
+  Import took 0.012227 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000616 seconds.
+Registered in 0.000455 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
 System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
-[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.635 seconds
-Platform modules already initialized, skipping
-Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1665 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 103.0 MB.
-System memory in use after: 103.1 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2245.
-Total: 2.109900 ms (FindLiveObjects: 0.200400 ms CreateObjectMapping: 0.038300 ms MarkObjects: 1.751000 ms  DeleteObjects: 0.118600 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 1413.312353 seconds.
-  path: Assets/NatureStarterKit2/Nature/tree01.prefab
-  artifactKey: Guid(393b236c42954a640b513d46de90ac38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NatureStarterKit2/Nature/tree01.prefab using Guid(393b236c42954a640b513d46de90ac38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f158de02ef95866adfc3c77b1be2f85') in 0.295884 seconds
-  Import took 0.298718 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 23.672045 seconds.
-  path: Assets/NatureStarterKit2/Nature/bush06.prefab
-  artifactKey: Guid(f62058cb710fd1745a24102fff0edd46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NatureStarterKit2/Nature/bush06.prefab using Guid(f62058cb710fd1745a24102fff0edd46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec4c6ffa3b5ed1874384bd179337587d') in 0.024970 seconds
-  Import took 0.027771 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 28.027926 seconds.
-  path: Assets/NatureStarterKit2/Nature/bush06.prefab
-  artifactKey: Guid(f62058cb710fd1745a24102fff0edd46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NatureStarterKit2/Nature/bush06.prefab using Guid(f62058cb710fd1745a24102fff0edd46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8d14004aabadba505a39f7035ec33ae') in 0.020758 seconds
-  Import took 0.023583 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000530 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+[D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
 
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
@@ -196,13 +155,939 @@ Mono: successfully reloaded assembly
 - Completed reload, in  0.649 seconds
 Platform modules already initialized, skipping
 Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1665 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 106.6 MB.
-System memory in use after: 106.7 MB.
+Unloading 1612 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.6 MB.
+System memory in use after: 92.7 MB.
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2290.
-Total: 1.944900 ms (FindLiveObjects: 0.170900 ms CreateObjectMapping: 0.040400 ms MarkObjects: 1.620500 ms  DeleteObjects: 0.112300 ms)
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2153.
+Total: 2.069600 ms (FindLiveObjects: 0.172300 ms CreateObjectMapping: 0.040400 ms MarkObjects: 1.777200 ms  DeleteObjects: 0.078700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 238.571833 seconds.
+  path: Assets/Materials/MaterialForceField.mat
+  artifactKey: Guid(c336fa9b010b686439a61fed23ead2da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/MaterialForceField.mat using Guid(c336fa9b010b686439a61fed23ead2da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d4942a5f7e7e9f023e377207e9790d6') in 0.044206 seconds
+  Import took 0.046729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Materials/MaterialLandingPad.mat
+  artifactKey: Guid(1b366d7001b9252488f07b6c05b3182e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/MaterialLandingPad.mat using Guid(1b366d7001b9252488f07b6c05b3182e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2dd7c07f72f7f53bf987c75eb59d288') in 0.011235 seconds
+  Import took 0.013786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.589901 seconds.
+  path: Assets/Scenes/Cool Level.unity
+  artifactKey: Guid(fff5fa5b75ad3964286f7bb13ecd23ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Cool Level.unity using Guid(fff5fa5b75ad3964286f7bb13ecd23ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acb9fa270877766e64e5257711356d2b') in 0.006237 seconds
+  Import took 0.008952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.393109 seconds.
+  path: Assets/Scenes/SandBox.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SandBox.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a8e8a44b0265460199d1b7babeafe1f') in 0.006624 seconds
+  Import took 0.009572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000561 seconds.
+  path: Assets/Scenes/SandBox.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SandBox.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a8e8a44b0265460199d1b7babeafe1f') in 0.001667 seconds
+  Import took 0.004263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.789787 seconds.
+  path: Assets/Ultra Emissive Particles Shader/Materials/Sparks1.mat
+  artifactKey: Guid(88b4cae619359a64295ac60e4ea6fea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ultra Emissive Particles Shader/Materials/Sparks1.mat using Guid(88b4cae619359a64295ac60e4ea6fea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eec786702f1bd243b8c1c2e6fb3f625') in 0.030463 seconds
+  Import took 0.033066 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000415 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.642 seconds
+Platform modules already initialized, skipping
+Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1612 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.7 MB.
+System memory in use after: 92.7 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2156.
+Total: 1.831200 ms (FindLiveObjects: 0.181000 ms CreateObjectMapping: 0.035400 ms MarkObjects: 1.531700 ms  DeleteObjects: 0.082000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 446.007878 seconds.
+  path: Assets/Scenes/SandBox.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SandBox.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f524236b1288d4072ac84b0b11ab83fd') in 0.007447 seconds
+  Import took 0.010315 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000416 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.649 seconds
+Platform modules already initialized, skipping
+Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1612 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.7 MB.
+System memory in use after: 92.7 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2158.
+Total: 2.042100 ms (FindLiveObjects: 0.188100 ms CreateObjectMapping: 0.035500 ms MarkObjects: 1.733400 ms  DeleteObjects: 0.084000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000380 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.663 seconds
+Platform modules already initialized, skipping
+Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1612 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.7 MB.
+System memory in use after: 92.8 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2160.
+Total: 2.265000 ms (FindLiveObjects: 0.261300 ms CreateObjectMapping: 0.047600 ms MarkObjects: 1.864900 ms  DeleteObjects: 0.089500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 378.746458 seconds.
+  path: Assets/Scripts/Oscillator.cs
+  artifactKey: Guid(fc1aaac19d77e9243905751e5aa5cb5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Oscillator.cs using Guid(fc1aaac19d77e9243905751e5aa5cb5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '636b6803c532e49efca586954c13a264') in 0.019025 seconds
+  Import took 0.021574 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000495 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.645 seconds
+Platform modules already initialized, skipping
+Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1613 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.7 MB.
+System memory in use after: 92.8 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2163.
+Total: 1.992300 ms (FindLiveObjects: 0.177200 ms CreateObjectMapping: 0.036700 ms MarkObjects: 1.689500 ms  DeleteObjects: 0.087900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000472 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.663 seconds
+Platform modules already initialized, skipping
+Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1613 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.7 MB.
+System memory in use after: 92.8 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2165.
+Total: 1.929600 ms (FindLiveObjects: 0.192300 ms CreateObjectMapping: 0.038300 ms MarkObjects: 1.621100 ms  DeleteObjects: 0.076900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000478 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.652 seconds
+Platform modules already initialized, skipping
+Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1613 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.7 MB.
+System memory in use after: 92.8 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2167.
+Total: 2.257300 ms (FindLiveObjects: 0.189200 ms CreateObjectMapping: 0.037300 ms MarkObjects: 1.945000 ms  DeleteObjects: 0.084400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000485 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.643 seconds
+Platform modules already initialized, skipping
+Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1613 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.7 MB.
+System memory in use after: 92.8 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2169.
+Total: 2.670900 ms (FindLiveObjects: 0.269900 ms CreateObjectMapping: 0.047600 ms MarkObjects: 2.250100 ms  DeleteObjects: 0.102100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000440 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.649 seconds
+Platform modules already initialized, skipping
+Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1613 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.7 MB.
+System memory in use after: 92.8 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2171.
+Total: 2.267400 ms (FindLiveObjects: 0.211400 ms CreateObjectMapping: 0.059600 ms MarkObjects: 1.914600 ms  DeleteObjects: 0.080600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000400 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.640 seconds
+Platform modules already initialized, skipping
+Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1613 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.7 MB.
+System memory in use after: 92.8 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2173.
+Total: 1.928900 ms (FindLiveObjects: 0.193400 ms CreateObjectMapping: 0.036400 ms MarkObjects: 1.619300 ms  DeleteObjects: 0.078900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000499 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.654 seconds
+Platform modules already initialized, skipping
+Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1613 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.8 MB.
+System memory in use after: 92.8 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2175.
+Total: 2.069100 ms (FindLiveObjects: 0.188900 ms CreateObjectMapping: 0.035700 ms MarkObjects: 1.756500 ms  DeleteObjects: 0.086800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000710 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.665 seconds
+Platform modules already initialized, skipping
+Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1613 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.8 MB.
+System memory in use after: 92.9 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2177.
+Total: 2.207100 ms (FindLiveObjects: 0.251700 ms CreateObjectMapping: 0.042500 ms MarkObjects: 1.831200 ms  DeleteObjects: 0.079800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000364 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.613 seconds
+Platform modules already initialized, skipping
+Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1613 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.8 MB.
+System memory in use after: 92.9 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2179.
+Total: 1.961400 ms (FindLiveObjects: 0.169400 ms CreateObjectMapping: 0.036500 ms MarkObjects: 1.685900 ms  DeleteObjects: 0.068600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000475 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.645 seconds
+Platform modules already initialized, skipping
+Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1613 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.8 MB.
+System memory in use after: 92.9 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2181.
+Total: 2.117500 ms (FindLiveObjects: 0.261200 ms CreateObjectMapping: 0.105400 ms MarkObjects: 1.664300 ms  DeleteObjects: 0.085600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000489 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.642 seconds
+Platform modules already initialized, skipping
+Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1613 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.8 MB.
+System memory in use after: 92.9 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2183.
+Total: 2.327600 ms (FindLiveObjects: 0.251900 ms CreateObjectMapping: 0.046100 ms MarkObjects: 1.948200 ms  DeleteObjects: 0.079200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000501 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.799 seconds
+Platform modules already initialized, skipping
+Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1613 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.8 MB.
+System memory in use after: 92.9 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2185.
+Total: 2.231000 ms (FindLiveObjects: 0.279100 ms CreateObjectMapping: 0.049600 ms MarkObjects: 1.819400 ms  DeleteObjects: 0.081500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000690 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.651 seconds
+Platform modules already initialized, skipping
+Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1613 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.8 MB.
+System memory in use after: 92.9 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2187.
+Total: 1.881200 ms (FindLiveObjects: 0.188900 ms CreateObjectMapping: 0.036700 ms MarkObjects: 1.590600 ms  DeleteObjects: 0.064200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2146.771460 seconds.
+  path: Assets/Prefabs/FollowLight.prefab
+  artifactKey: Guid(f4f6c5d6f48e3cc4b9f8ff0007013289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/FollowLight.prefab using Guid(f4f6c5d6f48e3cc4b9f8ff0007013289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e463fbbc3398e9ab7f734976e0595d9f') in 0.038528 seconds
+  Import took 0.041597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Prefabs/Main Camera.prefab
+  artifactKey: Guid(50e74ea5eda08ef498e3eda05e4118b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Main Camera.prefab using Guid(50e74ea5eda08ef498e3eda05e4118b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02c7839f7d4c948be9df460a424ec853') in 0.029969 seconds
+  Import took 0.048392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Prefabs/Fuel Cell.prefab
+  artifactKey: Guid(b470b5af9f65730458dee815a35a27a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Fuel Cell.prefab using Guid(b470b5af9f65730458dee815a35a27a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48006639c4eb21fa41ad9c41726b4db3') in 0.039718 seconds
+  Import took 0.041859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Prefabs/ObstacleFriendly.prefab
+  artifactKey: Guid(fc1573611e3ba4542b7f6704ca302fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ObstacleFriendly.prefab using Guid(fc1573611e3ba4542b7f6704ca302fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8df4359e128e1ebd25a6c07ffb630948') in 0.013491 seconds
+  Import took 0.022974 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Prefabs/Rocket.prefab
+  artifactKey: Guid(1246e12e87a1512408eeb025f1f49f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Rocket.prefab using Guid(1246e12e87a1512408eeb025f1f49f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6a99683e50ce14f103d64e5f86336b9') in 0.016901 seconds
+  Import took 0.020295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Prefabs/FollowLight.prefab
+  artifactKey: Guid(f4f6c5d6f48e3cc4b9f8ff0007013289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/FollowLight.prefab using Guid(f4f6c5d6f48e3cc4b9f8ff0007013289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e463fbbc3398e9ab7f734976e0595d9f') in 0.002733 seconds
+  Import took 0.005593 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Prefabs/ForceField.prefab
+  artifactKey: Guid(bfa32367583b26e488722166f898b4e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ForceField.prefab using Guid(bfa32367583b26e488722166f898b4e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98fa2abe48b3281f0bd68f4c450651fc') in 0.013180 seconds
+  Import took 0.016708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.473518 seconds.
+  path: Assets/Prefabs/ObstacleMovingCube.prefab
+  artifactKey: Guid(f7222519410bf4247b4b946cf9fc0dc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ObstacleMovingCube.prefab using Guid(f7222519410bf4247b4b946cf9fc0dc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e85752a7aad32f8fd0164790ee7b6a2') in 0.012481 seconds
+  Import took 0.022127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.068624 seconds.
+  path: Assets/Prefabs/ObstacleMovingCube.prefab
+  artifactKey: Guid(f7222519410bf4247b4b946cf9fc0dc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ObstacleMovingCube.prefab using Guid(f7222519410bf4247b4b946cf9fc0dc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e85752a7aad32f8fd0164790ee7b6a2') in 0.005457 seconds
+  Import took 0.007936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 78.499850 seconds.
+  path: Assets/Scenes/SandBox.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SandBox.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e931968d81f079571c118edf1afaa36') in 0.002112 seconds
+  Import took 0.005489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.430215 seconds.
+  path: Assets/Scenes/Cool Level.unity
+  artifactKey: Guid(fff5fa5b75ad3964286f7bb13ecd23ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Cool Level.unity using Guid(fff5fa5b75ad3964286f7bb13ecd23ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2b368f40c02e0be0e2a53bf2b2fc9dd') in 0.007863 seconds
+  Import took 0.011196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001973 seconds.
+  path: Assets/Scenes/Cool Level.unity
+  artifactKey: Guid(fff5fa5b75ad3964286f7bb13ecd23ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Cool Level.unity using Guid(fff5fa5b75ad3964286f7bb13ecd23ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2b368f40c02e0be0e2a53bf2b2fc9dd') in 0.001780 seconds
+  Import took 0.004412 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000446 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.639 seconds
+Platform modules already initialized, skipping
+Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1613 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.0 MB.
+System memory in use after: 93.0 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2193.
+Total: 1.876700 ms (FindLiveObjects: 0.181000 ms CreateObjectMapping: 0.042000 ms MarkObjects: 1.588400 ms  DeleteObjects: 0.064300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000401 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.656 seconds
+Platform modules already initialized, skipping
+Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1613 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.0 MB.
+System memory in use after: 93.0 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2195.
+Total: 2.076100 ms (FindLiveObjects: 0.192800 ms CreateObjectMapping: 0.038800 ms MarkObjects: 1.761800 ms  DeleteObjects: 0.081700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 584.085995 seconds.
+  path: Assets/Scripts/QuitApplication.cs
+  artifactKey: Guid(0d2fbd766a5e5594a8cc74de20497c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QuitApplication.cs using Guid(0d2fbd766a5e5594a8cc74de20497c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea30da22f4b8f44455830cb176c9136a') in 0.007827 seconds
+  Import took 0.012072 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000705 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.666 seconds
+Platform modules already initialized, skipping
+Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1614 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.0 MB.
+System memory in use after: 93.1 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2198.
+Total: 2.309100 ms (FindLiveObjects: 0.200400 ms CreateObjectMapping: 0.036600 ms MarkObjects: 1.989100 ms  DeleteObjects: 0.081400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000503 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.655 seconds
+Platform modules already initialized, skipping
+Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1614 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.0 MB.
+System memory in use after: 93.1 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2200.
+Total: 2.397400 ms (FindLiveObjects: 0.222000 ms CreateObjectMapping: 0.037600 ms MarkObjects: 2.047500 ms  DeleteObjects: 0.089100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 80.890966 seconds.
+  path: Assets/Scripts/QuitApplication.cs
+  artifactKey: Guid(0d2fbd766a5e5594a8cc74de20497c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/QuitApplication.cs using Guid(0d2fbd766a5e5594a8cc74de20497c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22affba654f51a6f07640e45916a4290') in 0.003328 seconds
+  Import took 0.067955 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000840 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.667 seconds
+Platform modules already initialized, skipping
+Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1614 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.0 MB.
+System memory in use after: 93.1 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2202.
+Total: 1.949700 ms (FindLiveObjects: 0.201600 ms CreateObjectMapping: 0.037600 ms MarkObjects: 1.640100 ms  DeleteObjects: 0.069300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 76.543196 seconds.
+  path: Assets/Prefabs/GenericScripts.prefab
+  artifactKey: Guid(f57f7349bf656dd46a41a0ce7b04fa9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/GenericScripts.prefab using Guid(f57f7349bf656dd46a41a0ce7b04fa9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c50fb12604112fa49fba6b538d0a0d30') in 0.020707 seconds
+  Import took 0.024032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.776220 seconds.
+  path: Assets/Scenes/Cool Level.unity
+  artifactKey: Guid(fff5fa5b75ad3964286f7bb13ecd23ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Cool Level.unity using Guid(fff5fa5b75ad3964286f7bb13ecd23ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79a0e644ed1752b2da89793fbe0685c6') in 0.001866 seconds
+  Import took 0.017342 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.771262 seconds.
+  path: Assets/Scenes/SandBox.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SandBox.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30ed939cdc1398b4dfa43e652aacf7c5') in 0.001670 seconds
+  Import took 0.021697 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000466 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[D:/Libraries/Documents/UNITY STUFF/ProjectBoost/ProjectBoost/Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.638 seconds
+Platform modules already initialized, skipping
+Shader 'Galactic Sudios/Ultra Emissive Particles': fallback shader 'ParticleAdditive' not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1614 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.0 MB.
+System memory in use after: 93.1 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2204.
+Total: 1.918400 ms (FindLiveObjects: 0.196400 ms CreateObjectMapping: 0.037800 ms MarkObjects: 1.607400 ms  DeleteObjects: 0.075700 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
