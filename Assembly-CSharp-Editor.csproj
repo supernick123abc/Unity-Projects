@@ -36,20 +36,21 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\NatureStarterKit2\Editor\ImageEffects\ColorCorrectionLookupEditor.cs" />
-     <Compile Include="Assets\NatureStarterKit2\Editor\ImageEffects\AntialiasingEditor.cs" />
-     <Compile Include="Assets\NatureStarterKit2\Editor\ImageEffects\NoiseAndGrainEditor.cs" />
-     <Compile Include="Assets\NatureStarterKit2\Editor\ImageEffects\SunShaftsEditor.cs" />
-     <Compile Include="Assets\NatureStarterKit2\Editor\ImageEffects\BloomEditor.cs" />
-     <Compile Include="Assets\NatureStarterKit2\Editor\ImageEffects\EdgeDetectionEditor.cs" />
-     <Compile Include="Assets\NatureStarterKit2\Editor\ImageEffects\CreaseShadingEditor.cs" />
-     <Compile Include="Assets\NatureStarterKit2\Editor\ImageEffects\DepthOfFieldDeprecatedEditor.cs" />
-     <Compile Include="Assets\NatureStarterKit2\Editor\ImageEffects\TonemappingEditor.cs" />
-     <Compile Include="Assets\NatureStarterKit2\Editor\ImageEffects\BloomAndFlaresEditor.cs" />
-     <Compile Include="Assets\NatureStarterKit2\Editor\ImageEffects\DepthOfFieldEditor.cs" />
-     <Compile Include="Assets\NatureStarterKit2\Editor\ImageEffects\ColorCorrectionCurvesEditor.cs" />
-     <Compile Include="Assets\NatureStarterKit2\Editor\ImageEffects\CameraMotionBlurEditor.cs" />
-     <Compile Include="Assets\NatureStarterKit2\Editor\ImageEffects\VignetteAndChromaticAberrationEditor.cs" />
+     <Compile Include="Assets\AssetPacks\NatureStarterKit2\Editor\ImageEffects\NoiseAndGrainEditor.cs" />
+     <Compile Include="Assets\AssetPacks\NatureStarterKit2\Editor\ImageEffects\BloomEditor.cs" />
+     <Compile Include="Assets\AssetPacks\NatureStarterKit2\Editor\ImageEffects\VignetteAndChromaticAberrationEditor.cs" />
+     <Compile Include="Assets\AssetPacks\NatureStarterKit2\Editor\ImageEffects\TonemappingEditor.cs" />
+     <Compile Include="Assets\AssetPacks\NatureStarterKit2\Editor\ImageEffects\BloomAndFlaresEditor.cs" />
+     <Compile Include="Assets\AssetPacks\NatureStarterKit2\Editor\ImageEffects\EdgeDetectionEditor.cs" />
+     <Compile Include="Assets\AssetPacks\NatureStarterKit2\Editor\ImageEffects\CreaseShadingEditor.cs" />
+     <Compile Include="Assets\AssetPacks\NatureStarterKit2\Editor\ImageEffects\AntialiasingEditor.cs" />
+     <Compile Include="Assets\AssetPacks\NatureStarterKit2\Editor\ImageEffects\DepthOfFieldDeprecatedEditor.cs" />
+     <Compile Include="Assets\AssetPacks\NatureStarterKit2\Editor\ImageEffects\DepthOfFieldEditor.cs" />
+     <Compile Include="Assets\AssetPacks\StarSparrow\Readme\Readme Files\Scripts\Editor\ReadmeStarSparrowEditor.cs" />
+     <Compile Include="Assets\AssetPacks\NatureStarterKit2\Editor\ImageEffects\ColorCorrectionCurvesEditor.cs" />
+     <Compile Include="Assets\AssetPacks\NatureStarterKit2\Editor\ImageEffects\ColorCorrectionLookupEditor.cs" />
+     <Compile Include="Assets\AssetPacks\NatureStarterKit2\Editor\ImageEffects\CameraMotionBlurEditor.cs" />
+     <Compile Include="Assets\AssetPacks\NatureStarterKit2\Editor\ImageEffects\SunShaftsEditor.cs" />
     <Reference Include="UnityEngine">
         <HintPath>D:/Unity/2021.1.12f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -668,6 +669,9 @@
     <Reference Include="Unity.VisualScripting.Flow.Editor">
         <HintPath>D:/Libraries/Documents/GitHub/Unity-Projects/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.TerrainTools">
+        <HintPath>D:/Libraries/Documents/GitHub/Unity-Projects/Library/ScriptAssemblies/Unity.TerrainTools.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VSCode.Editor">
         <HintPath>D:/Libraries/Documents/GitHub/Unity-Projects/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
@@ -676,6 +680,9 @@
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
         <HintPath>D:/Libraries/Documents/GitHub/Unity-Projects/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TerrainTools.Editor">
+        <HintPath>D:/Libraries/Documents/GitHub/Unity-Projects/Library/ScriptAssemblies/Unity.TerrainTools.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
         <HintPath>D:/Libraries/Documents/GitHub/Unity-Projects/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
@@ -701,32 +708,26 @@
     <Reference Include="UnityEditor.UI">
         <HintPath>D:/Libraries/Documents/GitHub/Unity-Projects/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.PlasticSCM.Editor">
-        <HintPath>D:/Libraries/Documents/GitHub/Unity-Projects/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Rider.Editor">
         <HintPath>D:/Libraries/Documents/GitHub/Unity-Projects/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.ProGrids.Editor">
+        <HintPath>D:/Libraries/Documents/GitHub/Unity-Projects/Library/ScriptAssemblies/Unity.ProGrids.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.UI">
         <HintPath>D:/Libraries/Documents/GitHub/Unity-Projects/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProGrids">
+        <HintPath>D:/Libraries/Documents/GitHub/Unity-Projects/Library/ScriptAssemblies/Unity.ProGrids.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PlasticSCM.Editor">
+        <HintPath>D:/Libraries/Documents/GitHub/Unity-Projects/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
         <HintPath>D:/Libraries/Documents/GitHub/Unity-Projects/Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core">
         <HintPath>D:/Libraries/Documents/GitHub/Unity-Projects/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ProGrids.Editor">
-        <HintPath>D:/Libraries/Documents/GitHub/Unity-Projects/Library/ScriptAssemblies/Unity.ProGrids.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ProGrids">
-        <HintPath>D:/Libraries/Documents/GitHub/Unity-Projects/Library/ScriptAssemblies/Unity.ProGrids.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TerrainTools">
-        <HintPath>D:/Libraries/Documents/GitHub/Unity-Projects/Library/ScriptAssemblies/Unity.TerrainTools.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TerrainTools.Editor">
-        <HintPath>D:/Libraries/Documents/GitHub/Unity-Projects/Library/ScriptAssemblies/Unity.TerrainTools.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
